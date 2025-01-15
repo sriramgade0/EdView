@@ -1,0 +1,81 @@
+/* Container for the category buttons */
+.college-categories {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.category-buttons button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* College list grid styling */
+.college-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns per row */
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+/* College card styling */
+.college-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Standard size for square images */
+.college-card img {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-radius: 8px;
+}
+
+/* Styling for college name */
+.college-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Styling for view details link */
+.college-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.college-card a:hover {
+    color: #0056b3;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 1024px) {
+    .college-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .college-list {
+        grid-template-columns: 1fr; /* 1 column per row on small screens */
+    }
+}

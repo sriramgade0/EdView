@@ -1,0 +1,78 @@
+.signin-form {
+    max-width: 500px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Padding inside the form */
+    border: 1px solid #ccc; /* Light border around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: #ffffff; /* White background */
+}
+
+h2 {
+    text-align: center; /* Center the header */
+    margin-bottom: 30px; /* Space below the header */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space below each form group */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 10px; /* Space below the label */
+    font-weight: bold; /* Bold font for labels */
+}
+
+input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+input:focus {
+    border-color: #007bff; /* Border color on focus */
+    outline: none; /* Remove outline on focus */
+}
+
+button {
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #007bff; /* Primary color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    width: 100%; /* Full width for buttons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    text-align: center; /* Center the error message */
+    margin-bottom: 15px; /* Space below the error message */
+}
+
+.go-to-signup-button {
+    display: inline-block; /* Inline block to allow margin */
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #007bff; /* Primary color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline for link */
+    transition: background-color 0.3s; /* Smooth transition */
+    width: 20%; /* Full width for buttons */
+}
+
+.go-to-signup-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

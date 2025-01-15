@@ -1,0 +1,68 @@
+.sign-up-form {
+    max-width: 400px; /* Limit the width of the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* White background */
+}
+
+.sign-up-form h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    margin-bottom: 10px; /* Space below error messages */
+    text-align: center; /* Center the error message */
+}
+
+.sign-up-form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 8px; /* Space below each label */
+    font-weight: bold; /* Bold labels */
+    color: #555; /* Darker gray for the labels */
+}
+
+.sign-up-form input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size for inputs */
+}
+
+.sign-up-form button {
+    width: 100%; /* Full width buttons */
+    padding: 10px; /* Padding inside buttons */
+    background-color: #007bff; /* Primary color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.sign-up-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.back-button {
+    margin-top: 10px; /* Space above the back button */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark color for back button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+    padding: 10px; /* Padding inside button */
+    width: auto; /* Auto width for back button */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.back-button:hover {
+    background-color: #e0e0e0; /* Darker gray on hover */
+}

@@ -1,0 +1,64 @@
+.header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.header-buttons li {
+    margin-left: 10px; /* Spacing between buttons */
+}
+
+.button-box {
+    display: block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none; /* Remove underline from Link */
+    transition: background-color 0.3s ease;
+    width: 150px; /* Width of the button box */
+    text-align: center; /* Center the text */
+}
+
+.button-box:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional styling to give boxes a clearer distinction */
+.button-box {
+    border: 1px solid #007bff; /* Border for better visibility */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    background-color: #ffffff; /* White background */
+    color: #007bff; /* Text color */
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.header-buttons .header-button {
+    margin-left: 10px; /* Spacing between buttons */
+    padding: 10px 20px; /* Button padding for better click area */
+    font-size: 1rem; /* Adjust font size as needed */
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.header-buttons .header-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional styling for better visibility */
+.header-buttons .header-button {
+    border: 1px solid #007bff; /* Border for better visibility */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
